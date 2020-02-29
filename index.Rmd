@@ -1,0 +1,44 @@
+---
+title: "Personal"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+<img src="images/fm.png" alt="drawing" width="85" height="85"/>
+
+# **Welcome**
+
+I am a researcher based at the Univesity of Zürich. A political scientist by training, my work is mostly interdisciplinary blending various sub-fields of Political Science (e.g., comparative politics, political behaviour and political communication) while also drawing on other fields such as Comparative Law and Computer Science. 
+
+#### These are some of my ongoing research activities:
+*   *Comparative politics* (esp. cross-national comparative work on institutions of direct democracy)  
+*   *Political behaviour* (esp. political attitudes and voting behaviour)
+*   *Applied political communication* (mainly around the design of interactive online opinion surveys; annotation platforms)  
+*   *e-Democracy* (esp. internet voting)  
+*   *Computational text analysis* (mainly topic modeling and sentiment analysis)  
+*   *Machine learning* (mainly supervised learning approaches to voting behaviour)  
+
+#### Contact
+fmendez72[at]gmail.com
+
+</div>
+<div class="col-sm-6">
+
+<br/><br/><br/><br/>
+<a href = "https://fmendez72.github.io/web/">
+![](images/wordcloudBlue.png)
+</a>
+</div>

@@ -1,0 +1,16 @@
+---
+title: "Additional resources"
+output: html_document
+---
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+1. Here is an example of a link to a webpage of our own <a href="https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html" target="_blank">[see link]</a>
+
+2. Here is an example of an external link to the <a href="https://www.constituteproject.org/search?lang=en" target="_blank">Constitute Project</a> database, which has all country constitutions in English.   
+
+3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+4. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+
+5. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

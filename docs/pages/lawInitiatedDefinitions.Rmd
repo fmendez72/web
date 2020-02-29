@@ -1,0 +1,32 @@
+---
+title: "Law-initiated referendums"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r,warning=FALSE,message=FALSE,echo=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+library(tidytext)
+library(knitr)
+library(kableExtra)
+library(ggpubr)
+library(stringr)
+```
+
+## List of questionnaire items and definitions/explanations
+```{r,echo=FALSE}
+df=read.csv("~/Dropbox/testGitHub/FM_webtest/Liddpages/LawItems.csv",stringsAsFactors = F)
+
+names(df)[3]<-"Definitions and Explanations"
+df %>% 
+  kable(format = "html") %>%
+  kable_styling(bootstrap_options = "striped",full_width = F,
+                position = "left")
+```
+

@@ -1,0 +1,43 @@
+ID,Item,Definitions
+1,Is there a law-initiated referendum at the national level?,"A referendum at national level that is triggered by conditions specified by law, thus the law determines the topic (e.g. transfer of sovereignty) or the type of legal act (e.g. constitutional amendment) that triggers the referendum process. The law can either mandate the referendum or make it dependent upon certain conditions (e.g. supermajority requirements). In this later case, if the conditions are not met, the institutions have no other procedural choice but to call a referendum, so the referendum is triggered by the legal requirements, not initiated by the institutions."
+2,Any constitutional amendment triggers a referendum?,This question refers to a legal provision which mandates that any consitutional amendment shall be suppported by a referendum
+3,Certain constitutional amendments trigger a referendum?,This question refers to a legal provision which mandates that only some consitutional amendment shall be suppported by a referendum
+4,The total revision of the constitution triggers a referendum?,This question refers to a legal provision which mandates that only the adoption of a new constitution or a total revision of the old constitution shall be suppported by a referendum
+5,Territorial changes trigger a referendum?,This question refers to a legal provision which mandates that changes to state borders or territory shall be suppported by a referendum
+6,The ratification of any international treaty triggers a referendum?,This question refers to a legal provision which mandates that the ratification of any international agreement shall be suppported by a referendum
+7,The ratification of certain international treaties triggers a referendum?,This question refers to a legal provision which mandates that only the ratification of some international agreements shall be suppported by a referendum
+8,The association with any other state or international organisation triggers a referendum?,This question refers to a legal provision which mandates that all associations with other states or international organisations shall be suppported by a referendum
+9,The association with certain states or international organisations triggers a referendum?,This question refers to a legal provision which mandates that only some associations with other states or international organisations shall be suppported by a referendum
+10,Are there any other issues or events that trigger a referendum?,"If there are any other events or issues for which a legal provision prescribes a referendum, please indictate those in the comment section"
+11,"Are there any procedural exceptions or procedures attached? (e.g. referendum is not mandated in case of a supermajority, constitutional court review)",Whether there are any procedures that apply for law-initiated referendums. These could include a judicial review of the issue put to a referendum or procedural requirements (e.g. supermajority votes) that override the need for a referendum.
+12,Are there any unamendable constitutional provision that limit referendums?,This question applies only to law-initiated referendums. The question is whether there are constitutional provisions that cannot be changed. Please indicate in the comment section whether such unamendable constitutional provisions can be changed  by a referendum or are they limiting the scope of referendums. 
+13,Are referendums related to international law obligations prohibited?,"This question refers to the signing or ratification of international treaties, association with other states and participation in international organisations"
+14,Are referendums related to fundamental rights and freedoms prohibited?,Including both the restriction and the expansion of fundamental rights
+15,Are referendums on state structure or form of government prohibited?,"This question refers to a ban on changing such fundamental features of the constitutional system as for example parliamentary democracy, separation of powers, etc."
+16,Are referendums on state symbols prohibited?,"Including state flag, national anthem, etc."
+17,Are referendums on the official language prohibited?,This question refers to a ban on changing the official language
+18,Are referendums on territorial issues or territorial integrity prohibited?,Including any question about state territory
+19,"Are referendums on state finances (budget, taxes, or other financial obligations) prohibited?",This question refers to a limit on proposing changes in either the revenue or the expenditure side of the state finances or on anything else related to state finances.
+20,"Are referendums issues related to national security (military, police, secret services) prohibited?",This question refers to a ban on referendums about the organisation and the rules of the internal security of the state
+21,"Are referendums on emergency powers (declaration of war, state of emergency, etc) and urgent matters prohibited?",This includes a ban on war powers and also state emergency measures
+22,Are referendums on pardon and amnesty prohibited?,This question refers to individual and mass measures of setting prisoners free
+23,Are referendums on naturalisation issues prohibited?,This question refers to questions about citizenship 
+24,Are referendums on minorities or minority rights prohibited?,This questions refers to a ban on changing the status or rights of minorities in the country
+25,Are referendums on the rules of elections and referendums prohibited?,This questions refers to a ban on changing legal provisions of elections and referendums by a referendum 
+26,Are referendums on the election or appointment of state officials or civil service laws prohibited?,This questions refers to a ban on having a referendum about single appointments or laws on state personnel
+27,Are referendums on legislative competences prohibited?,This question refers to a ban on changing the scope of legislative competences
+28,Are referendums on executive competences prohibited?,This question refers to a ban on changing the scope of executive competences
+29,"Are referendums on issues related to the judiciary (competences, independence, etc) prohibited?",This question refers to a ban on changing the scope of judicial competences or any other issue that may change the status or independence of the judiciary
+30,Are referendums on issues related to local governance prohibited?,"This question refers to a ban on changing the status, the composition or the competences of local governments"
+31,"Are there any other prohibited issues? (if Yes, describe in Comments box)","If there are any other prohibited topics, please indicate those in the comments section"
+32,Are there any formal limits on the wording of the referendum proposal?,"Whether there are legal restrictions on how the referendum question or issue has to be formulated (e.g. it has to be clear, it has to be a single question, etc.)"
+33,Is there a clarity of the question requirement?,"Whether there is a legal provision that the referendum question or issue has to be formulated precisely, in a clear, non-misleading manner"
+34,Is there a unity of form requirement?,Whether there is a legal provision that the referendum question or issue shall not combine a general and a specifically-worded proposal
+35,Is there a unity of substance requirement?,Whether there is a legal provision that the different parts of referendum question or issue shall have an internal connection
+36,"Are there any other formal limits? (if Yes, describe in Comments box)",Whether there are any other requirements about the formulation of the referendum question or issue
+37,Is the referendum result binding?,"Whether the successful referendum mandates the legislature to adopt a law or becomes a law automatically, or is it only advisory and the legislature decides if it gives effect to the referendum results"
+38,Turnout quorum,Number of participants for the vote to be valid
+39,Approval quorum,Number of citizens who have to approve the referendum question for it to pass
+40,"Territorial approval threshold (if Yes, describe in Comments box)","The turnout or the approval quorum is linked to a number of territorial units, so for a referendum to be valid and sucessful a number of territorial units must be represented by the voters"
+41,Who is responsible for certifying/validating the referendum result?,Who establishes the final results of the referendum after counting the votes. This question refers to the state body that makes the official decision on the results.
+42,Does this type of referendum exist at the subnational level?,"Whether this instrument has a local or regional version, when the vote also takes place at local level"

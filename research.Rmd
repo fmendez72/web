@@ -1,0 +1,82 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+<br/><br/>
+This page lists some of my main research areas, including both earlier work and ongoing research. Use the table of contents box to navigate directly to the different.
+<br/><br/>
+
+# Direct Democracy
+Much of my research has focused on direct democraqcy and other forms of political participation. I worked as a researcher for many years at the leading centre for the study of direct democracy, the [c2d](http://c2d.ch). Presently, I am involved in an interdisciplinary European Research Council project -[LIDD](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html)- that focuses on the limits of direct democracy. Below I list a sample of earlier work and ongoing research. 
+
+##### Earlier research
+1. Direct Democracy in the European Union
+
+This has been one [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+##### Ongoing research
+1. [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+<br/><br/>
+
+
+# Political communication
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [Downloadquestionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+
+# e-Democracy
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+
+# Computational text analysis
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+
+# Machine learning
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+
+# Constitutional design
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [Downloadquestionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>

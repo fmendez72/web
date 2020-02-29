@@ -1,0 +1,64 @@
+---
+title: "Data"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+The sections below list my ongoing research activities.
+<br/><br/>
+
+# Direct Democracy
+Vix Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+##### Links
+1. [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+<br/><br/>
+
+# Political communication
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [Downloadquestionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+
+# e-Democracy
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+
+# Computational text analysis
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+
+# Machine learning
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#### Links
+1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+<br/><br/>
+

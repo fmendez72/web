@@ -15,18 +15,27 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 <br/><br/>
-This page lists some of my main research areas, including both earlier work and ongoing research. Use the table of contents box to navigate directly to the different.
+This page lists some of my main research areas. It includes both earlier work and ongoing research. Uer the table of contents box to navigate directly to the different research areas.
 <br/><br/>
 
 # Direct Democracy
-Much of my research has focused on direct democraqcy and other forms of political participation. I worked as a researcher for many years at the leading centre for the study of direct democracy, the [c2d](http://c2d.ch). Presently, I am involved in an interdisciplinary European Research Council project -[LIDD](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html)- that focuses on the limits of direct democracy. Below I list a sample of earlier work and ongoing research. 
+Much of my research has focused on direct democraqcy and other forms of political participation. I worked as a researcher for many years at the leading centre for the study of direct democracy, the [c2d](http://c2d.ch). Presently, I am involved in an interdisciplinary European Research Council project, [LIDD](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html), which focuses on the limits of direct democracy. Below I list a sample of recent work and ongoing research. 
 
-##### Earlier research
-1. Direct Democracy in the European Union
+##### Research outputs
 
-This has been one [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+[(2018) Contested Sovereignty: Mapping Referendums on Sovereignty over Time and Space. *British Journal of Political Science* (with M. Germann)]( https://doi.org/10.1017/S0007123415000563)
 
-2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+[(2018) Referendums on European Integration: Crisis Solving or Crisis Inducing?, in (eds) Morel, L. & Qvortrup, M. *Routledge Compendium on Direct Democracy* (with M. Mendez)]( https://www.routledgehandbooks.com/doi/10.4324/9780203713181-23)
+
+
+[(2017) Referendums on EU Matters: *Study for the European Parliament* (with M. Mendez)]( https://www.europarl.europa.eu/RegData/etudes/STUD/2017/571402/IPOL_STU%282017%29571402_EN.pdf)
+
+[(2017) The promise and perils of direct democracy for the European Union. *Cambridge Yearbook of European Legal Studies* (with M. Mendez)]( https://doi.org/10.1017/cel.2017.7)
+
+[(2016) The European Union and direct democracy: An overview. In Ruth, S., Y. Welp & L. Whitehead. (Eds) Let the people rule? Direct democracy in the twenty-first century, *ECPR Press* (with M. Memdez).]( https://www.researchgate.net/publication/318263485_Let_the_People_Rule_Direct_Democracy_in_the_Twenty-First_Century)
+
+[(2014) Referendums and the European Union: A comparative inquiry. *Cambridge University Press* (with Mendez, M., Triga, V.) ]( https://doi.org/10.1017/CBO9781139524117)
+
 
 ##### Ongoing research
 1. [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)

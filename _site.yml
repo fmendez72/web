@@ -6,10 +6,8 @@ navbar:
       href: index.html
     - text: "Research"
       href: research.html
-    - text: "Publications"
-      href: publications.html
     - text: "Data"
       href: data.html
-    - text: "Bio"
+    - text: "Bio/Publications"
       href: bio.html
 output_dir: "docs"

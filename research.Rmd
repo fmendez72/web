@@ -15,38 +15,65 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 <br/><br/>
-This page lists some of my main research areas. It includes both earlier work and ongoing research. Uer the table of contents box to navigate directly to the different research areas.
+This page lists some of my main research areas. It includes both recent and ongoing research. Use the table of contents box to navigate directly to the different research areas. For a more comprehensive list of publications see the [Bio/Publications](https://fmendez72.github.io/web/bio.html) tab.
 <br/><br/>
 
 # Direct Democracy
-Much of my research has focused on direct democraqcy and other forms of political participation. I worked as a researcher for many years at the leading centre for the study of direct democracy, the [c2d](http://c2d.ch). Presently, I am involved in an interdisciplinary European Research Council project, [LIDD](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html), which focuses on the limits of direct democracy. Below I list a sample of recent work and ongoing research. 
+Much of my research has focused on direct democraqcy and other forms of political participation. A lot of this work was done while I was at the [c2d](http://c2d.ch), the leading centre for the study of direct democracy. Below is a sample of recent work and ongoing research: <br/>
 
-##### Research outputs
+[(in press) The Law and Politics of Direct Democracy in the European Union in P.J. Cardwell and M-P. Granger (eds), *Research Handbook on the Politics of EU Law*. Edward Elgar (with M. Mendez)]( https://www.e-elgar.com/shop/gbp/research-handbook-on-the-politics-of-eu-law-9781788971270.html)
+
+(in press) EU Accession Referendums in J. Smith (ed) *The Palgrave Handbook on European Referendums* (with M. Mendez)
 
 [(2018) Contested Sovereignty: Mapping Referendums on Sovereignty over Time and Space. *British Journal of Political Science* (with M. Germann)]( https://doi.org/10.1017/S0007123415000563)
 
 [(2018) Referendums on European Integration: Crisis Solving or Crisis Inducing?, in (eds) Morel, L. & Qvortrup, M. *Routledge Compendium on Direct Democracy* (with M. Mendez)]( https://www.routledgehandbooks.com/doi/10.4324/9780203713181-23)
 
-
-[(2017) Referendums on EU Matters: *Study for the European Parliament* (with M. Mendez)]( https://www.europarl.europa.eu/RegData/etudes/STUD/2017/571402/IPOL_STU%282017%29571402_EN.pdf)
+[(2017) Referendums on EU Matters: *Study commissioned by the European Parliament* (with M. Mendez)]( https://www.europarl.europa.eu/RegData/etudes/STUD/2017/571402/IPOL_STU%282017%29571402_EN.pdf)
 
 [(2017) The promise and perils of direct democracy for the European Union. *Cambridge Yearbook of European Legal Studies* (with M. Mendez)]( https://doi.org/10.1017/cel.2017.7)
 
 [(2016) The European Union and direct democracy: An overview. In Ruth, S., Y. Welp & L. Whitehead. (Eds) Let the people rule? Direct democracy in the twenty-first century, *ECPR Press* (with M. Memdez).]( https://www.researchgate.net/publication/318263485_Let_the_People_Rule_Direct_Democracy_in_the_Twenty-First_Century)
 
 [(2014) Referendums and the European Union: A comparative inquiry. *Cambridge University Press* (with Mendez, M., Triga, V.) ]( https://doi.org/10.1017/CBO9781139524117)
+<br/>
+
+##### Ongoing research
+I am involved in an interdisciplinary European Research Council project, [LIDD](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html), which focuses on the limits of direct democracy. Within the project I am currently exploring two main areas
+
+1. *Mapping institutions of direct democracy across the 48 member states of the Council of Europe*. This project is presently focused on developing a new database of institutions and practices in the CoE states [[see more]](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html).
+
+2. *The Agenda inititive in Europe and America: A cross-regional perspective* This project focuses on large country comparison of one of the least well understood instruments of direct democracy that is nonethless surprisingly popular in Europe and America.
+
+<br/>
+
+# Political behaviour
+This research area includes various themes related to the study of political attitudes, party politics and especially voting behaviour. A lot of the research draws on data generated from voting advice applications.
+
+[(2019) Reconceptualising Dimensions of Political Competition in Europe. *British Journal of Political Science* (with J. Wheatley)](https://doi.org/10.1017/S0007123418000571)
+
+[(2018) Does receiving advice from Voter Advice Applications (VAAs) affect public opinion in deeply divided societies? Evidence from a field experiment in Northern Ireland. *Party Politics* (with Garry, J., Tilly, J., Matthews, N., & J Wheatley)](https://doi.org/10.1177/1354068818818789)
+
+[(2018) Helping citizens to locate political parties in the policy space: A dataset for the 2014 elections to the European Parliament. *Research Data Journal for the Humanities and Social Sciences* (with Gemenis, K., and J Wheatley)](https://doi.org/10.1163/24523666-00401002)
+
+[(2017) Modeling proximity and directional decisional logic: What can we learn from applying statistical learning techniques to VAA-generated data? *Journal of Elections, Public Opinion and Parties*](https://doi.org/10.1080/17457289.2016.1269113)
+
+[(2016) Dynamic scale validation reloaded: Assessing the psychometric properties of latent measures of ideology in VAA spatial maps. *Quality & Quantity* (with M. Germann)](https://doi.org/10.1007/s11135-015-0186-0)
+
+[(2015) Spatial maps in voting advice applications: The case for dynamic scale validation. *Acta Politica* (with Germann, M., Wheatley, J., & Serdült, U)](https://doi.org/10.1057/ap.2014.3)
+
+[(2014) The dimensionality of the Scottish political space: Results from an experiment on the 2011 Holyrood elections. *Party Politics* (with Wheatley, J., Carman, C., & Mitchell, J.)](https://doi.org/10.1177/1354068812458614)
+
+[(2014) Mapping political parties in the ideological space with VAA data. in: Garzia, D., Marschall, S. (Eds.), *Matching Voters with Parties and Candidates*, ECPR Press (with J. Wheatley)](https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download)
 
 
 ##### Ongoing research
-1. [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+I am working with Micha Germann and Kostas Gemenis on a project that focuses on re-evaluating spatial voting models in a Big Data context. A second, separate paper focuses on the role of political information provision and party support.
 
-2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
-
-<br/><br/>
-
+<br/>
 
 # Political communication
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+I have an interest in applied political communication research, most of which is focused on the design and impact of voting advice applications.
 
 #### Links
 1. [Downloadquestionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)

@@ -6,7 +6,7 @@ navbar:
       href: index.html
     - text: "Research"
       href: research.html
-    - text: "Data"
+    - text: "Data & Apps"
       href: data.html
     - text: "Bio/Publications"
       href: bio.html

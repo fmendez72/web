@@ -73,46 +73,50 @@ I am working with Micha Germann and Kostas Gemenis on a project that focuses on 
 <br/>
 
 # Political communication
-I have an interest in applied political communication research, most of which is focused on the design and impact of voting advice applications.
+I have a strong interest in applied political communication research. Much of this work is focused on the design and impact of voting advice applications as well as developing coding and annotation platforms. Recently, I have started to use computational text analysis techniques (such as topic modeling and sentiment analysis) to evaluate, for instance news coverage during elections and the communication of EU public policies.
 
-#### Links
-1. [Downloadquestionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+[(2020) EU Cohesion Policy under the Media Spotlight: Exploring Territorial and Temporal Patterns in News Coverage and Tone. Journal of Common Market Studies (with Mendez, C., Trigka V., & J Carrascosa)]()
 
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+[(2019) The Visibility and Communication of Cohesion Policy in Online Media. *Study commission by the European Parliament's REGI Committee*](https://www.europarl.europa.eu/RegData/etudes/STUD/2019/629196/IPOL_STU(2019)629196_EN.pdf)
+
+[(2018) Post-crisis political normalisation? The Cyprus 2018 Presidential elections in context. South European Society and Politics (Triga, V. & C Djouvas)](https://doi.org/10.1080/13608746.2018.1511347)
+
+
+[(2014) What’s behind a matching algorithm: A critical assessment of how VAAs produce voting recommendations, in: Garzia, D., Marschall, S. (Eds.), Matching Voters with Parties and Candidates, ECPR Press](https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download)
+
+[(2012) Matching voters with political parties and candidates: An empirical test of four algorithms. *International Journal of Electronic Governance*](https://fmendez72.github.io/web/pages/ijeg.pdf)
+
 <br/><br/>
+
+# Machine learning
+I am very interested in mostly supervised machine learning approaches to data analysis. In particular, I have been very keen to apply these methods to the analysis of party preferences while drawing on large N datasets of public opinion. Also, of interest is the use of such techniques for methodological aspects such as data cleaning. 
+
+[(2017) Modeling proximity and directional decisional logic: What can we learn from applying statistical learning techniques to VAA-generated data? *Journal of Elections, Public Opinion and Parties*](https://doi.org/10.1080/17457289.2016.1269113)
+
+[(2016) Mining online political opinion surveys for suspect entries: An interdisciplinary comparison, Journal of Innovation in Digital Ecosystems (with Djouvas, C. & N Tsapatsoulis)](https://www.researchgate.net/publication/311357308_Mining_online_political_opinion_surveys_for_suspect_entries_An_interdisciplinary_comparison)
+
+[(2015) On the Design of Social Voting Recommendation Applications. *International Journal of Artificial Intelligence Tools* (Tsapatsoulis, N., Agathokleous, M., & C Djouvas)](https://www.researchgate.net/publication/272384379_On_the_Design_of_Social_Voting_Recommendation_Applications)
+
+[(2014) Social Voting Advice Applications –Definitions, Challenges, Datasets and Evaluations. *IEEE Trasanctions on Cybernetics* (with Katakis, I., Tsapatsoulis, N., Triga, V. & K Djouvas)](https://doi.org/10.1109/TCYB.2013.2279019)
+
+[(2014) Social Vote Recommendation: Building Party Models Using the Probability to Vote Feedback of VAA Users. SMAP 2014 Proceedings, IEEE Xplore (with N. Tsapatsoulis)](https://ieeexplore.ieee.org/document/6978966)
+
+[(2014). Methodological challenges in the analysis of voting advice application generated data. SMAP 2014, IEEE Xplore (with Gemenis, K., & C Djouvas)](https://doi.org/10.1109/SMAP.2014.32)
+
+
+<br/><br/>
+
+
 
 # e-Democracy
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-#### Links
-1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
-
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
 <br/><br/>
 
 # Computational text analysis
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-#### Links
-1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
-
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
 <br/><br/>
 
-# Machine learning
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-#### Links
-1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
-
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
-<br/><br/>
 
 # Constitutional design
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-#### Links
-1. [Downloadquestionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
-
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
-<br/><br/>

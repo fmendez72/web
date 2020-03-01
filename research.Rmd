@@ -1,12 +1,12 @@
 ---
-title: ""
+title: "Research"
 output:
   html_document:
     toc: true
     toc_float: true
     collapsed: false
     number_sections: false
-    toc_depth: 1
+    toc_depth: 2
     #code_folding: hide
 ---
 
@@ -14,11 +14,11 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-<br/><br/>
+<br/>
 This page lists some of my main research areas. It includes both recent and ongoing research. Use the table of contents box to navigate directly to the different research areas. For a more comprehensive list of publications see the [Bio/Publications](https://fmendez72.github.io/web/bio.html) tab.
 <br/><br/>
 
-# Direct Democracy
+## Direct Democracy
 Much of my research has focused on direct democraqcy and other forms of political participation. A lot of this work was done while I was at the [c2d](http://c2d.ch), the leading centre for the study of direct democracy. Below is a sample of recent work and ongoing research: <br/>
 
 [(in press) The Law and Politics of Direct Democracy in the European Union in P.J. Cardwell and M-P. Granger (eds), *Research Handbook on the Politics of EU Law*. Edward Elgar (with M. Mendez)]( https://www.e-elgar.com/shop/gbp/research-handbook-on-the-politics-of-eu-law-9781788971270.html)
@@ -47,7 +47,7 @@ I am involved in an interdisciplinary European Research Council project, [LIDD](
 
 <br/>
 
-# Political behaviour
+## Political behaviour
 This research area includes various themes related to the study of political attitudes, party politics and especially voting behaviour. A lot of the research draws on data generated from voting advice applications.
 
 [(2019) Reconceptualising Dimensions of Political Competition in Europe. *British Journal of Political Science* (with J. Wheatley)](https://doi.org/10.1017/S0007123418000571)
@@ -68,28 +68,69 @@ This research area includes various themes related to the study of political att
 
 
 ##### Ongoing research
-I am working with Micha Germann and Kostas Gemenis on a project that focuses on re-evaluating spatial voting models in a Big Data context. A second, separate paper focuses on the role of political information provision and party support.
+I have two ongoing research collaborations with Kostas Gemenis and Micha Germann in the area of political behaviour.
+
+1. A project that focuses on re-evaluating spatial voting models in a Big Data context.
+2. A paper that focuses on the role of political information provision and party support.
 
 <br/>
 
-# Political communication
+## Political communication
 I have a strong interest in applied political communication research. Much of this work is focused on the design and impact of voting advice applications as well as developing coding and annotation platforms. Recently, I have started to use computational text analysis techniques (such as topic modeling and sentiment analysis) to evaluate, for instance news coverage during elections and the communication of EU public policies.
 
-[(2020) EU Cohesion Policy under the Media Spotlight: Exploring Territorial and Temporal Patterns in News Coverage and Tone. Journal of Common Market Studies (with Mendez, C., Trigka V., & J Carrascosa)]()
+[(2020) EU Cohesion Policy under the Media Spotlight: Exploring Territorial and Temporal Patterns in News Coverage and Tone. *Journal of Common Market Studies* (with Mendez, C., Trigka V., & J Carrascosa)]()
 
-[(2019) The Visibility and Communication of Cohesion Policy in Online Media. *Study commission by the European Parliament's REGI Committee*](https://www.europarl.europa.eu/RegData/etudes/STUD/2019/629196/IPOL_STU(2019)629196_EN.pdf)
+[(2019) The Visibility and Communication of Cohesion Policy in Online Media. *Study commissioned by the European Parliament's REGI Committee*](https://www.europarl.europa.eu/RegData/etudes/STUD/2019/629196/IPOL_STU(2019)629196_EN.pdf)
 
-[(2018) Post-crisis political normalisation? The Cyprus 2018 Presidential elections in context. South European Society and Politics (Triga, V. & C Djouvas)](https://doi.org/10.1080/13608746.2018.1511347)
+[(2018) Post-crisis political normalisation? The Cyprus 2018 Presidential elections in context. *South European Society and Politics* (Triga, V. & C Djouvas)](https://doi.org/10.1080/13608746.2018.1511347)
 
 
-[(2014) What’s behind a matching algorithm: A critical assessment of how VAAs produce voting recommendations, in: Garzia, D., Marschall, S. (Eds.), Matching Voters with Parties and Candidates, ECPR Press](https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download)
+[(2014) What’s behind a matching algorithm: A critical assessment of how VAAs produce voting recommendations, in: Garzia, D., Marschall, S. (Eds.), *Matching Voters with Parties and Candidates*, ECPR Press](https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download)
 
 [(2012) Matching voters with political parties and candidates: An empirical test of four algorithms. *International Journal of Electronic Governance*](https://fmendez72.github.io/web/pages/ijeg.pdf)
 
-<br/><br/>
+##### Ongoing research
+I am working with a team from Cyprus University of Technology in two new areas:
 
-# Machine learning
-I am very interested in mostly supervised machine learning approaches to data analysis. In particular, I have been very keen to apply these methods to the analysis of party preferences while drawing on large N datasets of public opinion. Also, of interest is the use of such techniques for methodological aspects such as data cleaning. 
+1. Exploiting Big Data (mostly from Twitter) to explore vote preferences during referendum campaigns.
+2. Developing algorithms to analyse discussions on Twitter related to EU policies.
+
+<br/>
+
+## Digital politics & policy
+This is a broad area of research that focuses on digital politics, such as electronic participation, and public policy concerns mostly related to internet governance. 
+
+[(2017) What drives fidelity to internet voting? Evidence from the roll-out of internet voting in Switzerland. *Government and Information Quarterly* (with U Serdült)]()
+
+[(2015). Who are the internet voters? In E. Tambouris et al. (Eds.) Electronic Government and Electronic Participation. (with Serdult, U., Germann, M., Harris, M. & A Portenier)]()
+
+[(2014) From initial idea to piecemeal implementation Switzerland’s first decade of Internet voting reviewed. In Zissis, D., and Lekkas, D. (Eds) *Design, Development, and Use of Secure Electronic Voting Systems* IGI Global (with U Serdült)]()
+
+[(2015) Fifteen years of internet voting in Switzerland (history, governance and use). In Teran, L and A Meier, eDemocracy & eGovernment (ICEDEG), 2015 Second International Conference IEEE Xplore (with Serdult, U., Germann, M., Portenier, A., &C Wellig)]()
+
+[(2013) EU-Democracy & E-Democracy: Can the two be reconciled? In K Demetriou (ed) *Democracy in Transition: Political Participation in the European Union* Springer]()
+
+[(2012) Political polarization and popularity in online participatory media: an integrated approach. Proceedings of the 21st ACM International Conference on Information Knowledge Management (with Garcia, D., Serdült, U., & F Schweitzer)]()
+
+[(2010) Comparing privacy regimes: Federal theory and the politics of privacy regulation in the European Union and the United States. *Publius: Journal of Federalism* (with M Mendez)]()
+
+[(2010). Elections and the internet: On the difficulties of upgrading elections in the digital era. Representation]()
+
+[(2007) *The Governance and Regulation of the Internet in the European Union, the United States and Switzerland: A comparative federalism approach* EUI PhD Theses: Florence]()
+
+[(2005). The European Union and cybercrime: insights from comparative federalism. *Journal of European Public Policy*]()
+
+[(2005) *The European Union and E-Voting. Addressing the European Parliament’s Internet Voting Challenge, Routledge*. (with A Trechsel)]()
+
+[(2004) Evaluation of the use of new technologies in order to facilitate democracy in Europe: E-democratizing the parliaments and parties of Europe. Study commissioned by the European Parliament (with Kies, R., Schmitter, P., & A. Trechsel)]()
+
+##### Ongoing research
+I am working with Uwe Serdült on a paper that exploits public voter registry data to explore the determinants of internet voting.
+
+<br/>
+
+## Machine learning
+I am very interested in the application of supervised machine learning approaches to social science questions. In particular, I have been very keen to apply these methods to the analysis of vote choice while drawing on large N datasets of public opinion. Also, of interest is the use of such techniques for methodological aspects related to the analysis of opinion data, such as data cleaning. 
 
 [(2017) Modeling proximity and directional decisional logic: What can we learn from applying statistical learning techniques to VAA-generated data? *Journal of Elections, Public Opinion and Parties*](https://doi.org/10.1080/17457289.2016.1269113)
 
@@ -103,20 +144,18 @@ I am very interested in mostly supervised machine learning approaches to data an
 
 [(2014). Methodological challenges in the analysis of voting advice application generated data. SMAP 2014, IEEE Xplore (with Gemenis, K., & C Djouvas)](https://doi.org/10.1109/SMAP.2014.32)
 
+<br/>
 
-<br/><br/>
+## Constitutional design
+I have been interested in the area of comparative constitutional design and benefited in my research from working closely with constitutional lawyers. Most of the work focuses on how constitutional design can incorporate instruments of democratic participation.
 
+[(2013) (eds) Patterns of constitutional design: The role of Citizens and elites in constitution–making. Ashgate (with J. Wheatley)]()
 
+[(2013) The constitutional setting of the Republic of Sudan: A critical assessment. Report commissioned by the government of the Republic of Sudan (with Auer, A., & C Bisaz)]()
 
-# e-Democracy
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+[(2011) The Transitional Constitution of the Republic of South Sudan 2011. Report commissioned by the government of the Republic of South Sudan (with Auer, A., & C Bisaz)]()
 
-<br/><br/>
+##### Ongoing research
+My ongoing work in this domain is closely connected to my work within the
+[LIDD](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html) ERC project (see Direct Democracy above)
 
-# Computational text analysis
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<br/><br/>
-
-
-# Constitutional design
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

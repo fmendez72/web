@@ -26,10 +26,10 @@ I'm a researcher based at the Univesity of Zürich. A political scientist by tra
 #### Some of my ongoing research activities:
 *   *Comparative politics* (esp. cross-national comparative work on institutions of direct democracy)  
 *   *Political behaviour* (esp. political attitudes and voting behaviour)
-*   *Applied political communication* (mainly around the design of interactive online opinion surveys; annotation platforms)  
-*   *e-Democracy* (esp. internet voting)  
-*   *Computational text analysis* (mainly topic modeling and sentiment analysis)  
-*   *Machine learning* (mainly supervised learning approaches to voting behaviour)  
+*   *Political communication* (esp. around the analysis of Big Data using topic modeling and sentiment analysis techniques)  
+*   *Digital Politics and Policy * (esp. internet voting and e-participation)  
+*   *Machine learning* (mainly supervised learning approaches to voting behaviour and data mining of public opinion data)
+*   *Constitional design* (esp. on institutional procedures for incorporating instruments of democratic participation.)
 
 #### Contact
 fmendez72[at]gmail.com

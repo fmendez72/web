@@ -1,12 +1,12 @@
 ---
-title: "Data"
+title: "Data & Apps"
 output:
   html_document:
     toc: true
     toc_float: true
     collapsed: false
     number_sections: false
-    toc_depth: 1
+    toc_depth: 3
     #code_folding: hide
 ---
 
@@ -14,51 +14,54 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-The sections below list my ongoing research activities.
+In this section of my website you will find links to datasets used in research as well some more interactive stuff, Apps, that allow for more direct interaction with the data and in some cases downloading options. 
 <br/><br/>
 
-# Direct Democracy
-Vix Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-##### Links
-1. [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
-
-2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+# Apps
+Here you can view some of my Apps, datasets can usually be directly downloaded -alternatively navigate to the data sections of this webpage.
 <br/><br/>
 
-# Political communication
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Direct Democracy apps
+#### [Referendums on European integration ](https://fmendez72.github.io/web/pages/eu2017.html)
 
-#### Links
-1. [Downloadquestionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+#### [Constested sovereignty](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
-<br/><br/>
+<br/>
 
-# e-Democracy
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Public Opinion apps
+#### [Demand for referendums across the European Union](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 
-#### Links
-1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+#### [Election 1](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
-<br/><br/>
+#### [Election 2](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 
-# Computational text analysis
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<br/>
 
-#### Links
-1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+# Data
 
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
-<br/><br/>
+Below you can find links to mainly publicly archived datasets connected to research projects.
 
-# Machine learning
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<br/>
 
-#### Links
-1. [View questionnaire with list of items](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+### Public Opinion
 
-2. <a href="https://fmendez72.github.io/FM_webtest/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
-<br/><br/>
+#### [European elections 2014](https://fmendez72.github.io/web/pages/eu2017.html)
+
+#### [Election Y](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+<br/>
+
+### Party positions
+
+#### [Party positions European elections 2014](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+<br/>
+
+### Direct Democracy
+
+#### [Referendums on European integration ](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+#### [Sovereignty referendums: 1786:2014](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+
+<br/>
 

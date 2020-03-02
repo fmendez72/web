@@ -1,16 +1,33 @@
 ---
-title: "Short bio"
+title: "Bio information"
 output: html_document
 ---
+<br/>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Senior Researcher (2018-present)
+University of Zürich
 
-1. Here is an example of a link to a webpage of our own <a href="https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html" target="_blank">[see link]</a>
+<br/>
 
-2. Here is an example of an external link to the <a href="https://www.constituteproject.org/search?lang=en" target="_blank">Constitute Project</a> database, which has all country constitutions in English.   
+#### Coordinator (2012-present)
+PreferenceMatcher research consortium 
 
-3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-4. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+<br/>
 
-5. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Senior Researcher (2007:2018)
+Centre for Democracy Studies Aarau, University of Zürich
+
+<br/>
+
+#### Director (2008:2014)
+e-Democracy Centre (e-DC), University of University of Zürich
+
+<br/>
+
+#### Research assisstant (2004:2007)
+Centre for Research on Direct Democracy , University of Geneva
+
+<br/>
+
+####<a href="https://fmendez72.github.io/web/pages/eu2017.html" target="_blank">CV for more information</a>

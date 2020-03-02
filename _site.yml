@@ -8,6 +8,6 @@ navbar:
       href: research.html
     - text: "Data & Apps"
       href: data.html
-    - text: "Bio/Publications"
+    - text: "Bio"
       href: bio.html
 output_dir: "docs"

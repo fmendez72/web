@@ -21,7 +21,7 @@ output: html_document
 
 # **Welcome**
 
-I'm a researcher based at the Univesity of Zürich. A political scientist by training, my work is mostly interdisciplinary blending various sub-fields of Political Science (e.g., comparative politics, political behaviour and political communication) while also drawing on other fields such as Comparative Law and Computer Science. 
+I am a researcher based at the Univesity of Zürich. A political scientist by training, my work is mostly interdisciplinary blending various sub-fields of Political Science (e.g., comparative politics, political behaviour and political communication) while also drawing on other fields such as Comparative Law and Computer Science. 
 
 #### Some of my ongoing research activities:
 *   *Comparative politics* (esp. cross-national comparative work on institutions of direct democracy)  

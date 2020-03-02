@@ -22,14 +22,25 @@ Here you can view some of my Apps, datasets can usually be directly downloaded -
 <br/><br/>
 
 ### Direct Democracy apps
-#### [Referendums on European integration ](https://fmendez72.github.io/web/pages/eu2017.html)
+  
+  
 
-#### [Constested sovereignty](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+#####<a href="https://fmendez72.github.io/web/pages/eu2017.html" target="_blank">Referendums on European integration</a> 
+[This App draws my co-authored CUP book (2014) and report for the European Parliament (2017)]
+<br/><br/>
 
-<br/>
+#####<a href="https://fmendez72.github.io/web/pages/eu2017.html" target="_blank">Sovereignty referendums (1786-2014)</a> 
+[This App draws on my (2018) paper on Contested Sovereignty]
+<br/><br/>
+
+##### [Referendum provisions and practice in Europe]()
+[This App draws on work for the LIDD team; this is a work in progress, App to be released soon.]
+<br/><br/>
 
 ### Public Opinion apps
-#### [Demand for referendums across the European Union](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+#### [Demand for referendums across the European Union](https://fmendez72.github.io/web/pages/refDemand.html)
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 
 #### [Election 1](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 

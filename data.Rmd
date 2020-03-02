@@ -29,7 +29,7 @@ Here you can view some of my Apps, datasets can usually be directly downloaded -
 [This App draws my co-authored CUP book (2014) and report for the European Parliament (2017)]
 <br/><br/>
 
-#####<a href="https://fmendez72.github.io/web/pages/eu2017.html" target="_blank">Sovereignty referendums (1786-2014)</a> 
+#####<a href="https://fmendez72.github.io/web/pages/sovereignty.html" target="_blank">Sovereignty referendums (1786-2014)</a> 
 [This App draws on my (2018) paper on Contested Sovereignty]
 <br/><br/>
 

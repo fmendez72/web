@@ -14,23 +14,21 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-In this section of my website you will find links to datasets used in research as well some more interactive stuff, Apps, that allow for more direct interaction with the data and in some cases downloading options. 
+On this page you will find links to datasets used in research as well as some more interactive stuff. The Apps allow for more direct interaction with the data and in some cases contain downloading options. 
 <br/><br/>
 
 # Apps
-Here you can view some of my Apps, datasets can usually be directly downloaded -alternatively navigate to the data sections of this webpage.
+Here you can view some of my Apps. In some cases datasets can be directly downloaded -alternatively navigate to the data sections of this webpage.
 <br/><br/>
 
 ### Direct Democracy apps
   
-  
-
 #####<a href="https://fmendez72.github.io/web/pages/eu2017.html" target="_blank">Referendums on European integration</a> 
 [This App draws my co-authored CUP book (2014) and report for the European Parliament (2017)]
 <br/><br/>
 
-#####<a href="https://fmendez72.github.io/web/pages/sovereignty.html" target="_blank">Sovereignty referendums (1786-2014)</a> 
-[This App draws on my (2018) paper on Contested Sovereignty]
+#####<a href="https://fmendez72.github.io/web/pages/sovereignty.html" target="_blank">Sovereignty referendums (1776-2014)</a> 
+[This App draws on my (2018) paper with Micha Germann on Contested Sovereignty]
 <br/><br/>
 
 ##### [Referendum provisions and practice in Europe]()
@@ -46,21 +44,16 @@ Here you can view some of my Apps, datasets can usually be directly downloaded -
 #### [Election 1](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 <br/><br/>
 
-#### [Election 2](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
-
-<br/>
-
 # Data
-
 Below you can find links to mainly publicly archived datasets connected to research projects.
 
 <br/>
 
-### Public Opinion
+### Public Opinion data
 
 #####<a href="https://data.gesis.org/sharing/#!Detail/10.7802/1750" target="_blank">EUvox 2014: European Parliament elections</a> 
 [EUvox2014 was a Voting Advice Application (VAA) deloyed for the European Parliament elections of 2014. The user data contains over a million entries from 22 countries]
-<br/>
+<br/><br/>
 
 #### [Election Y](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 
@@ -69,14 +62,16 @@ Below you can find links to mainly publicly archived datasets connected to resea
 ### Party positions
 
 #####<a href="https://data.gesis.org/sharing/#!Detail/10.7802/1594" target="_blank">Party positions European elections 2014</a> 
-
-<br/>
+[This dataset contains the positions of 231 political parties, across 28 countries, on 30 policy issues that were considered salient for the 2014 elections to the European Parliament. The party position estimates were originally used in a voter information tool which compared the policy preferences of citizens to those of political parties]
+<br/><br/>
 
 ### Direct Democracy
 
 #### [Referendums on European integration ](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+<br/>
 
-#### [Sovereignty referendums: 1786:2014](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+#####<a href="https://data.gesis.org/sharing/#!Detail/10.7802/1594" target="_blank">Sovereignty referendums: 1776:2014</a> 
+[The *Contested Sovereignty* data set documents the worldwide use of the sovereignty referendum, since 1776. It contains data on over 600 sovereignty referendums.]
 
 <br/>
 

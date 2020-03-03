@@ -1,31 +1,31 @@
 ---
-title: "Bio information"
+title: "Short Bio information"
 output: html_document
 ---
 <br/>
 
-#### Senior Researcher (2018-present)
+##### Senior Researcher (2018-present)
 University of Zürich
 
 <br/>
 
-#### Coordinator (2012-present)
+##### Coordinator (2012-present)
 PreferenceMatcher research consortium 
 
 
 <br/>
 
-#### Senior Researcher (2007:2018)
+##### Senior Researcher (2007:2018)
 Centre for Democracy Studies Aarau, University of Zürich
 
 <br/>
 
-#### Director (2008:2014)
+##### Director (2008:2014)
 e-Democracy Centre (e-DC), University of University of Zürich
 
 <br/>
 
-#### Research assisstant (2004:2007)
+##### Research assisstant (2004:2007)
 Centre for Research on Direct Democracy , University of Geneva
 
 <br/>

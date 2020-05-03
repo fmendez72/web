@@ -103,7 +103,7 @@ This is a broad area of research that focuses on digital politics, such as elect
 
 [(2017) What drives fidelity to internet voting? Evidence from the roll-out of internet voting in Switzerland. *Government and Information Quarterly* (with U Serdült)](https://www.sciencedirect.com/science/article/abs/pii/S0740624X17301624){target="_blank"}
 
-[(2015). Who are the internet voters? In E. Tambouris et al. (Eds.) Electronic Government and Electronic Participation. (with Serdult, U., Germann, M., Harris, M. & A Portenier)](){target="_blank"}
+[(2015). Who are the internet voters? In E. Tambouris et al. (Eds.) Electronic Government and Electronic Participation. (with Serdult, U., Germann, M., Harris, M. & A Portenier)]((https://fmendez72.github.io/web/pages/serduelt_etal.pdf){target="_blank"}
 
 [(2014) From initial idea to piecemeal implementation Switzerland’s first decade of Internet voting reviewed. In Zissis, D., and Lekkas, D. (Eds) *Design, Development, and Use of Secure Electronic Voting Systems* IGI Global (with U Serdült)](){target="_blank"}
 

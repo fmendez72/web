@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>Research</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -26,12 +36,16 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,37 +58,11 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
-</head>
 
-<body>
+
+
 
 <style type = "text/css">
 .main-container {
@@ -82,13 +70,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -102,40 +85,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -163,7 +122,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -175,7 +134,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -185,15 +144,30 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -203,13 +177,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -217,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -239,6 +205,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -251,48 +218,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -306,6 +234,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -341,8 +275,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -352,8 +284,18 @@ div.tocify {
 
 </style>
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -367,7 +309,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -396,7 +338,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -405,109 +347,310 @@ div.tocify {
 </div>
 
 
-<p><br/> This page lists some of my main research areas. It includes both recent and ongoing research. Use the table of contents box to navigate directly to the different research areas. For a more comprehensive list of publications see the <a href="https://fmendez72.github.io/web/bio.html">Bio/Publications</a> tab. <br/><br/></p>
+<p><br/> This page lists some of my main research areas. It includes
+both recent and ongoing research. Use the table of contents box to
+navigate directly to the different research areas. For a more
+comprehensive list of publications see the <a
+href="https://fmendez72.github.io/web/bio.html">Bio/Publications</a>
+tab. <br/><br/></p>
 <div id="direct-democracy" class="section level2">
 <h2>Direct Democracy</h2>
-<p>Much of my research has focused on direct democraqcy and other forms of political participation. A lot of this work was done while I was at the <a href="http://c2d.ch" target="_blank">c2d</a>, the leading centre for the study of direct democracy. Below is a sample of recent work and ongoing research: <br/></p>
-<p><a href="https://www.e-elgar.com/shop/gbp/research-handbook-on-the-politics-of-eu-law-9781788971270.html" target="_blank">(in press) The Law and Politics of Direct Democracy in the European Union in P.J. Cardwell and M-P. Granger (eds), <em>Research Handbook on the Politics of EU Law</em>. Edward Elgar (with M. Mendez)</a></p>
-<p>(in press) EU Accession Referendums in J. Smith (ed) <em>The Palgrave Handbook on European Referendums</em> (with M. Mendez)</p>
-<p><a href="https://doi.org/10.1017/S0007123415000563" target="_blank">(2018) Contested Sovereignty: Mapping Referendums on Sovereignty over Time and Space. <em>British Journal of Political Science</em> (with M. Germann)</a></p>
-<p><a href="https://www.routledgehandbooks.com/doi/10.4324/9780203713181-23" target="_blank">(2018) Referendums on European Integration: Crisis Solving or Crisis Inducing?, in (eds) Morel, L. &amp; Qvortrup, M. <em>Routledge Compendium on Direct Democracy</em> (with M. Mendez)</a></p>
-<p><a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2017/571402/IPOL_STU%282017%29571402_EN.pdf" target="_blank">(2017) Referendums on EU Matters: <em>Study commissioned by the European Parliament</em> (with M. Mendez)</a></p>
-<p><a href="https://doi.org/10.1017/cel.2017.7" target="_blank">(2017) The promise and perils of direct democracy for the European Union. <em>Cambridge Yearbook of European Legal Studies</em> (with M. Mendez)</a></p>
-<p><a href="https://www.researchgate.net/publication/318263485_Let_the_People_Rule_Direct_Democracy_in_the_Twenty-First_Century" target="_blank">(2016) The European Union and direct democracy: An overview. In Ruth, S., Y. Welp &amp; L. Whitehead. (Eds) Let the people rule? Direct democracy in the twenty-first century, <em>ECPR Press</em> (with M. Memdez).</a></p>
-<p><a href="https://doi.org/10.1017/CBO9781139524117" target="_blank">(2014) Referendums and the European Union: A comparative inquiry. <em>Cambridge University Press</em> (with Mendez, M., Triga, V.)</a> <br/></p>
+<p>Much of my research has focused on direct democraqcy and other forms
+of political participation. A lot of this work was done while I was at
+the <a href="http://c2d.ch" target="_blank">c2d</a>, the leading centre
+for the study of direct democracy. Below is a sample of recent work and
+ongoing research: <br/></p>
+<p><a
+href="https://www.e-elgar.com/shop/gbp/research-handbook-on-the-politics-of-eu-law-9781788971270.html"
+target="_blank">(in press) The Law and Politics of Direct Democracy in
+the European Union in P.J. Cardwell and M-P. Granger (eds), <em>Research
+Handbook on the Politics of EU Law</em>. Edward Elgar (with M.
+Mendez)</a></p>
+<p>(in press) EU Accession Referendums in J. Smith (ed) <em>The Palgrave
+Handbook on European Referendums</em> (with M. Mendez)</p>
+<p><a href="https://doi.org/10.1017/S0007123415000563"
+target="_blank">(2018) Contested Sovereignty: Mapping Referendums on
+Sovereignty over Time and Space. <em>British Journal of Political
+Science</em> (with M. Germann)</a></p>
+<p><a
+href="https://www.routledgehandbooks.com/doi/10.4324/9780203713181-23"
+target="_blank">(2018) Referendums on European Integration: Crisis
+Solving or Crisis Inducing?, in (eds) Morel, L. &amp; Qvortrup, M.
+<em>Routledge Compendium on Direct Democracy</em> (with M.
+Mendez)</a></p>
+<p><a
+href="https://www.europarl.europa.eu/RegData/etudes/STUD/2017/571402/IPOL_STU%282017%29571402_EN.pdf"
+target="_blank">(2017) Referendums on EU Matters: <em>Study commissioned
+by the European Parliament</em> (with M. Mendez)</a></p>
+<p><a href="https://doi.org/10.1017/cel.2017.7" target="_blank">(2017)
+The promise and perils of direct democracy for the European Union.
+<em>Cambridge Yearbook of European Legal Studies</em> (with M.
+Mendez)</a></p>
+<p><a
+href="https://www.researchgate.net/publication/318263485_Let_the_People_Rule_Direct_Democracy_in_the_Twenty-First_Century"
+target="_blank">(2016) The European Union and direct democracy: An
+overview. In Ruth, S., Y. Welp &amp; L. Whitehead. (Eds) Let the people
+rule? Direct democracy in the twenty-first century, <em>ECPR Press</em>
+(with M. Memdez).</a></p>
+<p><a href="https://doi.org/10.1017/CBO9781139524117"
+target="_blank">(2014) Referendums and the European Union: A comparative
+inquiry. <em>Cambridge University Press</em> (with Mendez, M., Triga,
+V.)</a> <br/></p>
 <div id="ongoing-research" class="section level5">
 <h5>Ongoing research</h5>
-<p>I am involved in an interdisciplinary European Research Council project, <a href="https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html">LIDD</a>, which focuses on the limits of direct democracy. Within the project I am currently exploring two main areas</p>
+<p>I am involved in an interdisciplinary European Research Council
+project, <a
+href="https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html">LIDD</a>,
+which focuses on the limits of direct democracy. Within the project I am
+currently exploring two main areas</p>
 <ol style="list-style-type: decimal">
-<li><p><em>Mapping institutions of direct democracy across the 48 member states of the Council of Europe</em>. This project is presently focused on developing a new database of institutions and practices in the CoE states <a href="http://www.lidd-project.org" target="_blank">[see more]</a>.</p></li>
-<li><p><em>The Agenda inititive in Europe and America: A cross-regional perspective</em> This project focuses on large country comparison of one of the least well understood instruments of direct democracy that is nonethless surprisingly popular in Europe and America.</p></li>
+<li><p><em>Mapping institutions of direct democracy across the 48 member
+states of the Council of Europe</em>. This project is presently focused
+on developing a new database of institutions and practices in the CoE
+states <a href="http://www.lidd-project.org" target="_blank">[see
+more]</a>.</p></li>
+<li><p><em>The Agenda inititive in Europe and America: A cross-regional
+perspective</em> This project focuses on large country comparison of one
+of the least well understood instruments of direct democracy that is
+nonethless surprisingly popular in Europe and America.</p></li>
 </ol>
 <p><br/></p>
 </div>
 </div>
 <div id="political-behaviour" class="section level2">
 <h2>Political behaviour</h2>
-<p>This research area includes various themes related to the study of political attitudes, party politics and especially voting behaviour. A lot of the research draws on data generated from voting advice applications.</p>
-<p><a href="https://doi.org/10.1017/S0007123418000571" target="_blank">(2019) Reconceptualising Dimensions of Political Competition in Europe. <em>British Journal of Political Science</em> (with J. Wheatley)</a></p>
-<p><a href="https://doi.org/10.1177/1354068818818789" target="_blank">(2018) Does receiving advice from Voter Advice Applications (VAAs) affect public opinion in deeply divided societies? Evidence from a field experiment in Northern Ireland. <em>Party Politics</em> (with Garry, J., Tilly, J., Matthews, N., &amp; J Wheatley)</a></p>
-<p><a href="https://doi.org/10.1163/24523666-00401002" target="_blank">(2018) Helping citizens to locate political parties in the policy space: A dataset for the 2014 elections to the European Parliament. <em>Research Data Journal for the Humanities and Social Sciences</em> (with Gemenis, K., and J Wheatley)</a></p>
-<p><a href="https://doi.org/10.1080/17457289.2016.1269113" target="_blank">(2017) Modeling proximity and directional decisional logic: What can we learn from applying statistical learning techniques to VAA-generated data? <em>Journal of Elections, Public Opinion and Parties</em></a></p>
-<p><a href="https://doi.org/10.1007/s11135-015-0186-0" target="_blank">(2016) Dynamic scale validation reloaded: Assessing the psychometric properties of latent measures of ideology in VAA spatial maps. <em>Quality &amp; Quantity</em> (with M. Germann)</a></p>
-<p><a href="https://doi.org/10.1057/ap.2014.3" target="_blank">(2015) Spatial maps in voting advice applications: The case for dynamic scale validation. <em>Acta Politica</em> (with Germann, M., Wheatley, J., &amp; Serdült, U)</a></p>
-<p><a href="https://doi.org/10.1177/1354068812458614" target="_blank">(2014) The dimensionality of the Scottish political space: Results from an experiment on the 2011 Holyrood elections. <em>Party Politics</em> (with Wheatley, J., Carman, C., &amp; Mitchell, J.)</a></p>
-<p><a href="https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download" target="_blank">(2014) Mapping political parties in the ideological space with VAA data. in: Garzia, D., Marschall, S. (Eds.), <em>Matching Voters with Parties and Candidates</em>, ECPR Press (with J. Wheatley)</a></p>
+<p>This research area includes various themes related to the study of
+political attitudes, party politics and especially voting behaviour. A
+lot of the research draws on data generated from voting advice
+applications.</p>
+<p><a href="https://doi.org/10.1017/S0007123418000571"
+target="_blank">(2019) Reconceptualising Dimensions of Political
+Competition in Europe. <em>British Journal of Political Science</em>
+(with J. Wheatley)</a></p>
+<p><a href="https://doi.org/10.1177/1354068818818789"
+target="_blank">(2018) Does receiving advice from Voter Advice
+Applications (VAAs) affect public opinion in deeply divided societies?
+Evidence from a field experiment in Northern Ireland. <em>Party
+Politics</em> (with Garry, J., Tilly, J., Matthews, N., &amp; J
+Wheatley)</a></p>
+<p><a href="https://doi.org/10.1163/24523666-00401002"
+target="_blank">(2018) Helping citizens to locate political parties in
+the policy space: A dataset for the 2014 elections to the European
+Parliament. <em>Research Data Journal for the Humanities and Social
+Sciences</em> (with Gemenis, K., and J Wheatley)</a></p>
+<p><a href="https://doi.org/10.1080/17457289.2016.1269113"
+target="_blank">(2017) Modeling proximity and directional decisional
+logic: What can we learn from applying statistical learning techniques
+to VAA-generated data? <em>Journal of Elections, Public Opinion and
+Parties</em></a></p>
+<p><a href="https://doi.org/10.1007/s11135-015-0186-0"
+target="_blank">(2016) Dynamic scale validation reloaded: Assessing the
+psychometric properties of latent measures of ideology in VAA spatial
+maps. <em>Quality &amp; Quantity</em> (with M. Germann)</a></p>
+<p><a href="https://doi.org/10.1057/ap.2014.3" target="_blank">(2015)
+Spatial maps in voting advice applications: The case for dynamic scale
+validation. <em>Acta Politica</em> (with Germann, M., Wheatley, J.,
+&amp; Serdült, U)</a></p>
+<p><a href="https://doi.org/10.1177/1354068812458614"
+target="_blank">(2014) The dimensionality of the Scottish political
+space: Results from an experiment on the 2011 Holyrood elections.
+<em>Party Politics</em> (with Wheatley, J., Carman, C., &amp; Mitchell,
+J.)</a></p>
+<p><a
+href="https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download"
+target="_blank">(2014) Mapping political parties in the ideological
+space with VAA data. in: Garzia, D., Marschall, S. (Eds.), <em>Matching
+Voters with Parties and Candidates</em>, ECPR Press (with J.
+Wheatley)</a></p>
 <div id="ongoing-research-1" class="section level5">
 <h5>Ongoing research</h5>
-<p>I have two ongoing research collaborations with Kostas Gemenis and Micha Germann in the area of political behaviour.</p>
+<p>I have two ongoing research collaborations with Kostas Gemenis and
+Micha Germann in the area of political behaviour.</p>
 <ol style="list-style-type: decimal">
-<li>A project that focuses on re-evaluating spatial voting models in a Big Data context.</li>
-<li>A paper that focuses on the role of political information provision and party support.</li>
+<li>A project that focuses on re-evaluating spatial voting models in a
+Big Data context.</li>
+<li>A paper that focuses on the role of political information provision
+and party support.</li>
 </ol>
 <p><br/></p>
 </div>
 </div>
 <div id="political-communication" class="section level2">
 <h2>Political communication</h2>
-<p>I have a strong interest in applied political communication research. Much of this work is focused on the design and impact of voting advice applications as well as developing coding and annotation platforms. Recently, I have started to use computational text analysis techniques (such as topic modeling and sentiment analysis) to evaluate, for instance news coverage during elections and the communication of EU public policies.</p>
-<p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.13016?af=R" target="_blank">(2020) EU Cohesion Policy under the Media Spotlight: Exploring Territorial and Temporal Patterns in News Coverage and Tone. <em>Journal of Common Market Studies</em> (with Mendez, C., Trigka V., &amp; J Carrascosa)</a></p>
-<p><a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2019/629196/IPOL_STU(2019)629196_EN.pdf" target="_blank">(2019) The Visibility and Communication of Cohesion Policy in Online Media. <em>Study commissioned by the European Parliament’s REGI Committee</em></a></p>
-<p><a href="https://doi.org/10.1080/13608746.2018.1511347" target="_blank">(2018) Post-crisis political normalisation? The Cyprus 2018 Presidential elections in context. <em>South European Society and Politics</em> (Triga, V. &amp; C Djouvas)</a></p>
-<p><a href="https://brill.com/view/journals/rdj/4/1/article-p13_13.xml?language=en" target="_blank">(2018) Helping citizens to locate political parties in the policy space: A dataset for the 2014 elections to the European Parliament. <em>Research Data Journal for the Humanities and Social Sciences</em> (with K Gemenis &amp; J Wheatley)</a></p>
-<p><a href="https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download" target="_blank">(2014) What’s behind a matching algorithm: A critical assessment of how VAAs produce voting recommendations, in: Garzia, D., Marschall, S. (Eds.), <em>Matching Voters with Parties and Candidates</em>, ECPR Press</a></p>
-<p><a href="https://fmendez72.github.io/web/pages/ijeg.pdf" target="_blank">(2012) Matching voters with political parties and candidates: An empirical test of four algorithms. <em>International Journal of Electronic Governance</em></a></p>
+<p>I have a strong interest in applied political communication research.
+Much of this work is focused on the design and impact of voting advice
+applications as well as developing coding and annotation platforms.
+Recently, I have started to use computational text analysis techniques
+(such as topic modeling and sentiment analysis) to evaluate, for
+instance news coverage during elections and the communication of EU
+public policies.</p>
+<p><a
+href="https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.13016?af=R"
+target="_blank">(2020) EU Cohesion Policy under the Media Spotlight:
+Exploring Territorial and Temporal Patterns in News Coverage and Tone.
+<em>Journal of Common Market Studies</em> (with Mendez, C., Trigka V.,
+&amp; J Carrascosa)</a></p>
+<p><a
+href="https://www.europarl.europa.eu/RegData/etudes/STUD/2019/629196/IPOL_STU(2019)629196_EN.pdf"
+target="_blank">(2019) The Visibility and Communication of Cohesion
+Policy in Online Media. <em>Study commissioned by the European
+Parliament’s REGI Committee</em></a></p>
+<p><a href="https://doi.org/10.1080/13608746.2018.1511347"
+target="_blank">(2018) Post-crisis political normalisation? The Cyprus
+2018 Presidential elections in context. <em>South European Society and
+Politics</em> (Triga, V. &amp; C Djouvas)</a></p>
+<p><a href="https://brill.com/view/journals/rdj/4/1/article-p13_13.xml?language=en" target="_blank">(2018)
+Helping citizens to locate political parties in the policy space: A
+dataset for the 2014 elections to the European Parliament. <em>Research
+Data Journal for the Humanities and Social Sciences</em> (with K Gemenis
+&amp; J Wheatley)</a></p>
+<p><a
+href="https://www.researchgate.net/publication/285054037_Matching_Voters_With_Parties_and_Candidates_Voting_Advice_Applications_in_a_Comparative_Perspective/link/588b7fb0a6fdcc8e63c802d2/download"
+target="_blank">(2014) What’s behind a matching algorithm: A critical
+assessment of how VAAs produce voting recommendations, in: Garzia, D.,
+Marschall, S. (Eds.), <em>Matching Voters with Parties and
+Candidates</em>, ECPR Press</a></p>
+<p><a href="https://fmendez72.github.io/web/pages/ijeg.pdf"
+target="_blank">(2012) Matching voters with political parties and
+candidates: An empirical test of four algorithms. <em>International
+Journal of Electronic Governance</em></a></p>
 <div id="ongoing-research-2" class="section level5">
 <h5>Ongoing research</h5>
-<p>I am working with a team from Cyprus University of Technology in two new areas:</p>
+<p>I am working with a team from Cyprus University of Technology in two
+new areas:</p>
 <ol style="list-style-type: decimal">
-<li>Exploiting Big Data (mostly from Twitter) to explore vote preferences during referendum campaigns.</li>
-<li>Developing algorithms to analyse Twitter discussions on EU-related policies.</li>
+<li>Exploiting Big Data (mostly from Twitter) to explore vote
+preferences during referendum campaigns.</li>
+<li>Developing algorithms to analyse Twitter discussions on EU-related
+policies.</li>
 </ol>
 <p><br/></p>
 </div>
 </div>
 <div id="digital-politics-policy" class="section level2">
 <h2>Digital politics &amp; policy</h2>
-<p>This is a broad area of research that focuses on digital politics, such as electronic participation, and public policy concerns mostly related to internet governance.</p>
-<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0740624X17301624" target="_blank">(2017) What drives fidelity to internet voting? Evidence from the roll-out of internet voting in Switzerland. <em>Government and Information Quarterly</em> (with U Serdült)</a></p>
-<p><a href="https://fmendez72.github.io/web/pages/serduelt_etal.pdf" target="_blank">(2015). Who are the internet voters? In E. Tambouris et al. (Eds.) Electronic Government and Electronic Participation. (with Serdult, U., Germann, M., Harris, M. &amp; A Portenier)</a></p>
-<p><a href="" target="_blank">(2014) From initial idea to piecemeal implementation Switzerland’s first decade of Internet voting reviewed. In Zissis, D., and Lekkas, D. (Eds) <em>Design, Development, and Use of Secure Electronic Voting Systems</em> IGI Global (with U Serdült)</a></p>
-<p><a href="" target="_blank">(2015) Fifteen years of internet voting in Switzerland (history, governance and use). In Teran, L and A Meier, eDemocracy &amp; eGovernment (ICEDEG), 2015 Second International Conference IEEE Xplore (with Serdult, U., Germann, M., Portenier, A., &amp;C Wellig)</a></p>
-<p><a href="" target="_blank">(2013) EU-Democracy &amp; E-Democracy: Can the two be reconciled? In K Demetriou (ed) <em>Democracy in Transition: Political Participation in the European Union</em> Springer</a></p>
-<p><a href="" target="_blank">(2012) Political polarization and popularity in online participatory media: an integrated approach. Proceedings of the 21st ACM International Conference on Information Knowledge Management (with Garcia, D., Serdült, U., &amp; F Schweitzer)</a></p>
-<p><a href="" target="_blank">(2010) Comparing privacy regimes: Federal theory and the politics of privacy regulation in the European Union and the United States. <em>Publius: Journal of Federalism</em> (with M Mendez)</a></p>
-<p><a href="" target="_blank">(2010). Elections and the internet: On the difficulties of upgrading elections in the digital era. Representation</a></p>
-<p><a href="" target="_blank">(2007) <em>The Governance and Regulation of the Internet in the European Union, the United States and Switzerland: A comparative federalism approach</em> EUI PhD Theses: Florence</a></p>
-<p><a href="" target="_blank">(2005). The European Union and cybercrime: insights from comparative federalism. <em>Journal of European Public Policy</em></a></p>
-<p><a href="https://www.amazon.com/European-Electronic-Routledge-Advances-Politics/dp/0415328799" target="_blank">(2005) <em>The European Union and E-Voting.</em> Routledge. (with A Trechsel)</a></p>
-<p><a href="https://orbilu.uni.lu/bitstream/10993/21778/1/IPOL-JOIN_ET(2003)471583_EN.pdf" target="_blank">(2004) Evaluation of the use of new technologies in order to facilitate democracy in Europe: E-democratizing the parliaments and parties of Europe. Study commissioned by the European Parliament (with Kies, R., Schmitter, P., &amp; A. Trechsel)</a></p>
+<p>This is a broad area of research that focuses on digital politics,
+such as electronic participation, and public policy concerns mostly
+related to internet governance.</p>
+<p><a
+href="https://www.sciencedirect.com/science/article/abs/pii/S0740624X17301624"
+target="_blank">(2017) What drives fidelity to internet voting? Evidence
+from the roll-out of internet voting in Switzerland. <em>Government and
+Information Quarterly</em> (with U Serdült)</a></p>
+<p><a href="https://fmendez72.github.io/web/pages/serduelt_etal.pdf"
+target="_blank">(2015). Who are the internet voters? In E. Tambouris et
+al. (Eds.) Electronic Government and Electronic Participation. (with
+Serdult, U., Germann, M., Harris, M. &amp; A Portenier)</a></p>
+<p><a
+href="https://fmendez72.github.io/web/pages/evoting2014_MendezSerdlt.pdf"
+target="_blank">(2014) From initial idea to piecemeal implementation
+Switzerland’s first decade of Internet voting reviewed. In Zissis, D.,
+and Lekkas, D. (Eds) <em>Design, Development, and Use of Secure
+Electronic Voting Systems</em> IGI Global (with U Serdült)</a></p>
+<p><a href="" target="_blank">(2015) Fifteen years of internet voting in
+Switzerland (history, governance and use). In Teran, L and A Meier,
+eDemocracy &amp; eGovernment (ICEDEG), 2015 Second International
+Conference IEEE Xplore (with Serdult, U., Germann, M., Portenier, A.,
+&amp;C Wellig)</a></p>
+<p><a href="" target="_blank">(2013) EU-Democracy &amp; E-Democracy: Can
+the two be reconciled? In K Demetriou (ed) <em>Democracy in Transition:
+Political Participation in the European Union</em> Springer</a></p>
+<p><a href="" target="_blank">(2012) Political polarization and
+popularity in online participatory media: an integrated approach.
+Proceedings of the 21st ACM International Conference on Information
+Knowledge Management (with Garcia, D., Serdült, U., &amp; F
+Schweitzer)</a></p>
+<p><a href="" target="_blank">(2010) Comparing privacy regimes: Federal
+theory and the politics of privacy regulation in the European Union and
+the United States. <em>Publius: Journal of Federalism</em> (with M
+Mendez)</a></p>
+<p><a href="" target="_blank">(2010). Elections and the internet: On the
+difficulties of upgrading elections in the digital era.
+Representation</a></p>
+<p><a href="" target="_blank">(2007) <em>The Governance and Regulation
+of the Internet in the European Union, the United States and
+Switzerland: A comparative federalism approach</em> EUI PhD Theses:
+Florence</a></p>
+<p><a href="" target="_blank">(2005). The European Union and cybercrime:
+insights from comparative federalism. <em>Journal of European Public
+Policy</em></a></p>
+<p><a
+href="https://www.amazon.com/European-Electronic-Routledge-Advances-Politics/dp/0415328799"
+target="_blank">(2005) <em>The European Union and E-Voting.</em>
+Routledge. (with A Trechsel)</a></p>
+<p><a
+href="https://orbilu.uni.lu/bitstream/10993/21778/1/IPOL-JOIN_ET(2003)471583_EN.pdf"
+target="_blank">(2004) Evaluation of the use of new technologies in
+order to facilitate democracy in Europe: E-democratizing the parliaments
+and parties of Europe. Study commissioned by the European Parliament
+(with Kies, R., Schmitter, P., &amp; A. Trechsel)</a></p>
 <div id="ongoing-research-3" class="section level5">
 <h5>Ongoing research</h5>
-<p>I am working with Uwe Serdült on a paper that exploits public voter registry data to explore the determinants of internet voting.</p>
+<p>I am working with Uwe Serdült on a paper that exploits public voter
+registry data to explore the determinants of internet voting.</p>
 <p><br/></p>
 </div>
 </div>
 <div id="machine-learning" class="section level2">
 <h2>Machine learning</h2>
-<p>I am very interested in the application of supervised machine learning approaches to social science questions. In particular, I have been very keen to apply these methods to the analysis of vote choice while drawing on large N datasets of public opinion. Also, of interest is the use of such techniques for methodological aspects related to the analysis of opinion data, such as data cleaning.</p>
-<p><a href="https://doi.org/10.1080/17457289.2016.1269113" target="_blank">(2017) Modeling proximity and directional decisional logic: What can we learn from applying statistical learning techniques to VAA-generated data? <em>Journal of Elections, Public Opinion and Parties</em></a></p>
-<p><a href="https://www.researchgate.net/publication/311357308_Mining_online_political_opinion_surveys_for_suspect_entries_An_interdisciplinary_comparison" target="_blank">(2016) Mining online political opinion surveys for suspect entries: An interdisciplinary comparison, Journal of Innovation in Digital Ecosystems (with Djouvas, C. &amp; N Tsapatsoulis)</a></p>
-<p><a href="https://www.researchgate.net/publication/272384379_On_the_Design_of_Social_Voting_Recommendation_Applications" target="_blank">(2015) On the Design of Social Voting Recommendation Applications. <em>International Journal of Artificial Intelligence Tools</em> (Tsapatsoulis, N., Agathokleous, M., &amp; C Djouvas)</a></p>
-<p><a href="https://doi.org/10.1109/TCYB.2013.2279019" target="_blank">(2014) Social Voting Advice Applications –Definitions, Challenges, Datasets and Evaluations. <em>IEEE Trasanctions on Cybernetics</em> (with Katakis, I., Tsapatsoulis, N., Triga, V. &amp; K Djouvas)</a></p>
-<p><a href="https://ieeexplore.ieee.org/document/6978966" target="_blank">(2014) Social Vote Recommendation: Building Party Models Using the Probability to Vote Feedback of VAA Users. SMAP 2014 Proceedings, IEEE Xplore (with N. Tsapatsoulis)</a></p>
-<p><a href="https://doi.org/10.1109/SMAP.2014.32" target="_blank">(2014). Methodological challenges in the analysis of voting advice application generated data. SMAP 2014, IEEE Xplore (with Gemenis, K., &amp; C Djouvas)</a></p>
+<p>I am very interested in the application of supervised machine
+learning approaches to social science questions. In particular, I have
+been very keen to apply these methods to the analysis of vote choice
+while drawing on large N datasets of public opinion. Also, of interest
+is the use of such techniques for methodological aspects related to the
+analysis of opinion data, such as data cleaning.</p>
+<p><a href="https://doi.org/10.1080/17457289.2016.1269113"
+target="_blank">(2017) Modeling proximity and directional decisional
+logic: What can we learn from applying statistical learning techniques
+to VAA-generated data? <em>Journal of Elections, Public Opinion and
+Parties</em></a></p>
+<p><a
+href="https://www.researchgate.net/publication/311357308_Mining_online_political_opinion_surveys_for_suspect_entries_An_interdisciplinary_comparison"
+target="_blank">(2016) Mining online political opinion surveys for
+suspect entries: An interdisciplinary comparison, Journal of Innovation
+in Digital Ecosystems (with Djouvas, C. &amp; N Tsapatsoulis)</a></p>
+<p><a
+href="https://www.researchgate.net/publication/272384379_On_the_Design_of_Social_Voting_Recommendation_Applications"
+target="_blank">(2015) On the Design of Social Voting Recommendation
+Applications. <em>International Journal of Artificial Intelligence
+Tools</em> (Tsapatsoulis, N., Agathokleous, M., &amp; C Djouvas)</a></p>
+<p><a href="https://doi.org/10.1109/TCYB.2013.2279019"
+target="_blank">(2014) Social Voting Advice Applications –Definitions,
+Challenges, Datasets and Evaluations. <em>IEEE Trasanctions on
+Cybernetics</em> (with Katakis, I., Tsapatsoulis, N., Triga, V. &amp; K
+Djouvas)</a></p>
+<p><a href="https://ieeexplore.ieee.org/document/6978966"
+target="_blank">(2014) Social Vote Recommendation: Building Party Models
+Using the Probability to Vote Feedback of VAA Users. SMAP 2014
+Proceedings, IEEE Xplore (with N. Tsapatsoulis)</a></p>
+<p><a href="https://doi.org/10.1109/SMAP.2014.32"
+target="_blank">(2014). Methodological challenges in the analysis of
+voting advice application generated data. SMAP 2014, IEEE Xplore (with
+Gemenis, K., &amp; C Djouvas)</a></p>
 <p><br/></p>
 </div>
 <div id="constitutional-design" class="section level2">
 <h2>Constitutional design</h2>
-<p>I have been interested in the area of comparative constitutional design and benefited in my research from working closely with constitutional lawyers. Most of the work focuses on how constitutional design can incorporate instruments of democratic participation.</p>
-<p><a href="" target="_blank">(2013) (eds) Patterns of constitutional design: The role of Citizens and elites in constitution–making. Ashgate (with J. Wheatley)</a></p>
-<p><a href="" target="_blank">(2013) The constitutional setting of the Republic of Sudan: A critical assessment. Report commissioned by the government of the Republic of Sudan (with Auer, A., &amp; C Bisaz)</a></p>
-<p><a href="" target="_blank">(2011) The Transitional Constitution of the Republic of South Sudan 2011. Report commissioned by the government of the Republic of South Sudan (with Auer, A., &amp; C Bisaz)</a></p>
+<p>I have been interested in the area of comparative constitutional
+design and benefited in my research from working closely with
+constitutional lawyers. Most of the work focuses on how constitutional
+design can incorporate instruments of democratic participation.</p>
+<p><a href="" target="_blank">(2013) (eds) Patterns of constitutional
+design: The role of Citizens and elites in constitution–making. Ashgate
+(with J. Wheatley)</a></p>
+<p><a href="" target="_blank">(2013) The constitutional setting of the
+Republic of Sudan: A critical assessment. Report commissioned by the
+government of the Republic of Sudan (with Auer, A., &amp; C
+Bisaz)</a></p>
+<p><a href="" target="_blank">(2011) The Transitional Constitution of
+the Republic of South Sudan 2011. Report commissioned by the government
+of the Republic of South Sudan (with Auer, A., &amp; C Bisaz)</a></p>
 <div id="ongoing-research-4" class="section level5">
 <h5>Ongoing research</h5>
-<p>My ongoing research in this domain is closely connected to my work within the <a href="https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html" target="_blank">LIDD</a> ERC project (see also Direct Democracy section above).</p>
+<p>My ongoing research in this domain is closely connected to my work
+within the
+<a href="https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html" target="_blank">LIDD</a>
+ERC project (see also Direct Democracy section above).</p>
 </div>
 </div>
 
@@ -522,13 +665,59 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

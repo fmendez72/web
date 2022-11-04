@@ -19,7 +19,7 @@ output: html_document
 
 <img src="images/fm.png" alt="drawing" width="85" height="85"/>
 
-# **Welcome**
+# **Welcome to my website**
 
 I am a researcher based at the Univesity of Zürich. A political scientist by training, my work is mostly interdisciplinary blending various sub-fields of Political Science (e.g., comparative politics, political behaviour and political communication) while also drawing on other fields such as Comparative Law and Computer Science. 
 
